@@ -1,0 +1,34 @@
+# Ignore Airflow logs and temporary files
+root/logs/
+*.log
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore data files and results that are generated during execution
+root/dags/data/
+root/dags/data/bronze_breweries.json
+root/dags/data/gold_breweries_aggregated.parquet
+root/dags/data/silver_breweries/
+root/dags/data/silver_breweries/*
+
+# Ignore Docker-related build files and folders
+root/config/.env
+docker-compose.override.yml
+
+# Ignore environment files
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git-specific files
+.git/

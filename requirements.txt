@@ -1,0 +1,22 @@
+# Upgrade pip to the latest version
+pip==23.1.2  # Ensure the latest pip version; you may run `python -m pip install --upgrade pip`
+
+# Essential data handling and processing libraries
+pandas==2.1.1
+pyarrow==13.0.0
+fastparquet==0.8.1
+
+# Airflow specific version and dependencies
+apache-airflow==2.5.0
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.6
+pymysql==1.1.0
+
+# Requests library for API interactions
+requests==2.31.0
+
+# Unit testing libraries (these are typically included in Python but adding for completeness)
+unittest2==1.1.0
+
+# Additional utilities for Airflow and Python operators
+python-dotenv==1.0.0

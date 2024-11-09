@@ -1,0 +1,12 @@
+2024-11-09 19:38:52,263 - INFO - Starting test: test_aggregate_data_creates_gold_file
+2024-11-09 19:38:52,295 - INFO - test_aggregate_data_creates_gold_file completed successfully.
+2024-11-09 19:38:52,296 - INFO - Starting test: test_fetch_data_creates_bronze_file
+2024-11-09 19:38:52,300 - INFO - test_fetch_data_creates_bronze_file completed successfully.
+2024-11-09 19:38:52,301 - INFO - Starting test: test_transform_data_creates_silver_files
+2024-11-09 19:38:52,312 - INFO - test_transform_data_creates_silver_files completed successfully.
+2024-11-09 19:38:52,312 - INFO - Starting test: test_validate_bronze_data_format
+2024-11-09 19:38:52,317 - INFO - test_validate_bronze_data_format completed successfully.
+2024-11-09 19:38:52,318 - INFO - Starting test: test_validate_gold_data_structure
+2024-11-09 19:38:52,323 - INFO - test_validate_gold_data_structure completed successfully.
+2024-11-09 19:38:52,323 - INFO - Starting test: test_validate_silver_data_by_state
+2024-11-09 19:38:52,331 - INFO - test_validate_silver_data_by_state completed successfully.
