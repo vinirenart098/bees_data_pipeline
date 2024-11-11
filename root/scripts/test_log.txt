@@ -1,12 +1,39 @@
-2024-11-09 19:38:52,263 - INFO - Starting test: test_aggregate_data_creates_gold_file
-2024-11-09 19:38:52,295 - INFO - test_aggregate_data_creates_gold_file completed successfully.
-2024-11-09 19:38:52,296 - INFO - Starting test: test_fetch_data_creates_bronze_file
-2024-11-09 19:38:52,300 - INFO - test_fetch_data_creates_bronze_file completed successfully.
-2024-11-09 19:38:52,301 - INFO - Starting test: test_transform_data_creates_silver_files
-2024-11-09 19:38:52,312 - INFO - test_transform_data_creates_silver_files completed successfully.
-2024-11-09 19:38:52,312 - INFO - Starting test: test_validate_bronze_data_format
-2024-11-09 19:38:52,317 - INFO - test_validate_bronze_data_format completed successfully.
-2024-11-09 19:38:52,318 - INFO - Starting test: test_validate_gold_data_structure
-2024-11-09 19:38:52,323 - INFO - test_validate_gold_data_structure completed successfully.
-2024-11-09 19:38:52,323 - INFO - Starting test: test_validate_silver_data_by_state
-2024-11-09 19:38:52,331 - INFO - test_validate_silver_data_by_state completed successfully.
+2024-11-11 15:22:30,845 - INFO - Starting test: test_aggregate_data_creates_gold_file
+2024-11-11 15:22:30,875 - INFO - test_aggregate_data_creates_gold_file completed successfully.
+2024-11-11 15:22:30,877 - INFO - Starting test: test_fetch_data_creates_bronze_file
+2024-11-11 15:22:30,880 - INFO - test_fetch_data_creates_bronze_file completed successfully.
+2024-11-11 15:22:30,881 - INFO - Starting test: test_transform_data_creates_silver_files
+2024-11-11 15:22:30,896 - INFO - Hash for Arizona.parquet: 8b7e9d6b6bdfe289346cdbddc888ab7a
+2024-11-11 15:22:30,900 - INFO - Hash for California.parquet: 0f78b4833c389cd464f864e19ef31731
+2024-11-11 15:22:30,904 - INFO - Hash for Colorado.parquet: d8f1a1a7aa51e9beb320971efbf479ef
+2024-11-11 15:22:30,909 - INFO - Hash for Delaware.parquet: 52cd52633b044f9897f3ecb9859f70ae
+2024-11-11 15:22:30,913 - INFO - Hash for Idaho.parquet: 81098d01a09f4afd3c41fc400590fa0d
+2024-11-11 15:22:30,918 - INFO - Hash for Illinois.parquet: 146655f11ef48df23c56103055bd087b
+2024-11-11 15:22:30,922 - INFO - Hash for Indiana.parquet: 9008f054ebd26d406188a1e4ee59b5e4
+2024-11-11 15:22:30,926 - INFO - Hash for Iowa.parquet: fd1d63c7827b831a97f66685aa7225f0
+2024-11-11 15:22:30,930 - INFO - Hash for Laois.parquet: d26d9f215ca9a35d4255cc4237814b58
+2024-11-11 15:22:30,935 - INFO - Hash for Maryland.parquet: e2288b3b3eb4fcd673d991e2c245bb31
+2024-11-11 15:22:30,940 - INFO - Hash for Massachusetts.parquet: 2f68b05e7497908913349a9848f0665c
+2024-11-11 15:22:30,948 - INFO - Hash for Michigan.parquet: 8815de3295dd94e6b08363056b9cc3e8
+2024-11-11 15:22:30,952 - INFO - Hash for Minnesota.parquet: 4d58f93b083f747c01db6500cd3c953b
+2024-11-11 15:22:30,960 - INFO - Hash for Mississippi.parquet: 8674c8f8a3f6beb0809e94bf8bad74c5
+2024-11-11 15:22:30,966 - INFO - Hash for Nevada.parquet: a5cb40a50bc777ed566b144614cecdc8
+2024-11-11 15:22:30,973 - INFO - Hash for New York.parquet: 0d126f9e3f312b60e9206e9e9f5980c5
+2024-11-11 15:22:30,979 - INFO - Hash for North Carolina.parquet: 4d4018bac8ffc3c1e7e18004b71a9ed3
+2024-11-11 15:22:30,984 - INFO - Hash for Ohio.parquet: 604242e355501fa7992f5709a764fc26
+2024-11-11 15:22:30,991 - INFO - Hash for Oklahoma.parquet: cc52075fda0744c4b5ea797ed0d74574
+2024-11-11 15:22:30,996 - INFO - Hash for Oregon.parquet: 887225f00fa20aef1738ac7f418b7a26
+2024-11-11 15:22:31,001 - INFO - Hash for Pennsylvania.parquet: 523425da67ca5c5d71592329a170c536
+2024-11-11 15:22:31,006 - INFO - Hash for South Carolina.parquet: fcf33778b0bca9653dd6706a2442b88e
+2024-11-11 15:22:31,012 - INFO - Hash for Texas.parquet: c188334d749bae9683bf780aa59acbe1
+2024-11-11 15:22:31,017 - INFO - Hash for Vermont.parquet: d8b66f623765611d9e507b70893ef24b
+2024-11-11 15:22:31,022 - INFO - Hash for Virginia.parquet: 347137564efb71b43282e9c98a7f9dc9
+2024-11-11 15:22:31,027 - INFO - Hash for Washington.parquet: 4f6ecf2865de6d415e64096f65cd2872
+2024-11-11 15:22:31,032 - INFO - Hash for Wisconsin.parquet: 74544b9d77e7d2d4daf1e9ec73ea0212
+2024-11-11 15:22:31,033 - INFO - test_transform_data_creates_silver_files completed successfully with data integrity checks.
+2024-11-11 15:22:31,034 - INFO - Starting test: test_validate_bronze_data_format
+2024-11-11 15:22:31,038 - INFO - test_validate_bronze_data_format completed successfully.
+2024-11-11 15:22:31,039 - INFO - Starting test: test_validate_gold_data_structure
+2024-11-11 15:22:31,047 - INFO - test_validate_gold_data_structure completed successfully.
+2024-11-11 15:22:31,048 - INFO - Starting test: test_validate_silver_data_by_state
+2024-11-11 15:22:31,061 - INFO - test_validate_silver_data_by_state completed successfully.
