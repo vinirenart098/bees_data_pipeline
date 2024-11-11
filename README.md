@@ -53,7 +53,7 @@ To run this project, make sure to have the following applications installed:
    Make sure to run the following command in a terminal with **administrator privileges**:
    ```bash
    git clone https://github.com/vinirenart098/bees_data_pipeline
-   cd bees_data_pipeline
+   cd bees_data_pipeline\root\config
    ```
    
 2. **Initial Configuration**:
