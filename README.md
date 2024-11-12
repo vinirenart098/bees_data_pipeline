@@ -160,10 +160,3 @@ docker-compose up
 
 ### Issue 4: Permission Issues on Data Files
 **Solution**: Ensure that your Docker containers have proper permissions to access and write to the `/opt/airflow/dags/data/` directory.
-
----
-
-## ✅ Conclusion
-This README provides all necessary instructions to set up, run, and monitor the data pipeline with Airflow. Follow the steps above to ensure the project runs correctly and refer to the Troubleshooting section to resolve any potential issues.
-
-For further information or questions, please contact the project maintainer.
